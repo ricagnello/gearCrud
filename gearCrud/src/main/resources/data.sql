@@ -1,0 +1,3 @@
+INSERT INTO tb_gear(quantity, type, material, module, number_Of_Teeth, price,note) VALUES (3, 'engrenagem corrente', 'aço', 0.5, 30, 83.34, 'Passo 1/2 Norma Din');
+INSERT INTO tb_gear(quantity, type, material, module, number_Of_Teeth, price,note) VALUES (4, 'engrenagem helicoidal', 'aço', 2.92, 35, 125.0, 'Angulo 23° Direita');
+INSERT INTO tb_gear(quantity, type, material, module, number_Of_Teeth, price,note) VALUES (4, 'engrenagem', 'aço', 3.175, 35, 80.0, 'Angulo pressão 14° 30');
