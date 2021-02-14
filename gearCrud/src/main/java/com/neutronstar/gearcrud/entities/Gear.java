@@ -49,7 +49,7 @@ public class Gear implements Serializable {
 	@Setter
 	private String note;
 
-	private Double getTotalPrice() {
+	public Double getTotalPrice() {
 		return quantity * price;
 	}
 

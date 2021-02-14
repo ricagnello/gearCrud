@@ -1,5 +1,9 @@
 package com.neutronstar.gearcrud.repositories;
 
-public interface GearRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.neutronstar.gearcrud.entities.Gear;
+
+public interface GearRepository extends JpaRepository<Gear, Long> {
 
 }
